@@ -1,0 +1,66 @@
+div {
+    margin: auto;
+    width: 50%;
+    background-color: rgb(184, 226, 252);
+    padding: 20px 0;
+}
+
+div > h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+ul {
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    margin-right: 0;
+    padding: 0px;
+    background-color: lightblue;
+}
+
+a {
+    font-size: x-large;
+    color: black;
+}
+
+a:hover {
+    color:blue;
+    text-decoration: underline;
+}
+
+li > a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+}
+
+li.sup > ul.sublist > li > a {
+    background-color: rgb(252, 250, 247);
+}
+
+li.withsub > ul {
+    display: none;
+}
+
+li.withsub:hover > ul {
+    display: block;
+}
+
+li.withsub:hover > ul > li{
+    transition: all 3000ms ease;
+}
+
+ul.sublist {
+    margin: 0;
+}
+
+ul.sublist > li > a {
+    display: block;
+    text-align: center;
+    background-color: rgb(252, 250, 247);
+    padding: 5px 10px;
+}
